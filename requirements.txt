@@ -1,0 +1,6 @@
+yfinance
+os
+openai 
+streamlit
+anthropic
+warnings
