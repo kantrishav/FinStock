@@ -65,11 +65,11 @@ oil_data  = yf.download('CL=F', period='5d' , progress=False)
 oil_data = oil_data.sort_index(ascending=False)
 
 
-sp500_kpi = round(sp500_data1.iloc[4]["Adj Close"], 2)
-prev_day_sp500 = round(sp500_data1.iloc[3]["Adj Close"], 2)
-today_sp500 = round(sp500_data1.iloc[4]["Adj Close"], 2)
+sp500_kpi = round(float(sp500_data1.iloc[4]["Adj Close"]), 2)
+prev_day_sp500 = round(float(sp500_data1.iloc[3]["Adj Close"]), 2)
+today_sp500 = round(float(sp500_data1.iloc[4]["Adj Close"]), 2)
 change_sp500 = ((today_sp500-prev_day_sp500)/prev_day_sp500)*100
-change_sp500 = round(change_sp500,2)
+change_sp500 = round(float(change_sp500),2)
 change_sp500 = f"{change_sp500} %"
 
 
