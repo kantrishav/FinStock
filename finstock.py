@@ -1,19 +1,19 @@
 import yfinance as yf
-import os
+#import os
 from openai import OpenAI
 import streamlit as st
-import anthropic
-from st_audiorec import st_audiorec
+#import anthropic
+#from st_audiorec import st_audiorec
 import openai
-import tempfile 
-import matplotlib.pyplot as plt
-import plotly.express as px
-import warnings
-from config import OPENAI_API_KEY
+#import tempfile 
+#import matplotlib.pyplot as plt
+#import plotly.express as px
+#import warnings
+#from config import OPENAI_API_KEY
 st.set_page_config(layout="wide")
 
 
-warnings.filterwarnings('ignore')
+#warnings.filterwarnings('ignore')
 
 
 st.markdown("""
