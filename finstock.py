@@ -236,7 +236,7 @@ st.write("   ")
 
 client = OpenAI(
     # This is the default and can be omitted
-    api_key=OPEN_API_KEY,
+    api_key= st.secrets["OPEN_AI_KEY"],
 )
 
 st.markdown(
