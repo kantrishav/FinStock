@@ -8,12 +8,12 @@ import openai
 #import tempfile 
 #import matplotlib.pyplot as plt
 #import plotly.express as px
-#import warnings
+import warnings
 #from config import OPENAI_API_KEY
 st.set_page_config(layout="wide")
 
 
-#warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore')
 
 
 st.markdown("""
