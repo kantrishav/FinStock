@@ -74,18 +74,18 @@ change_sp500 = f"{change_sp500} %"
 
 
 
-dow_kpi = round(dow_data.iloc[4]["Adj Close"], 2)
-dow_prev  = round(dow_data.iloc[3]["Adj Close"], 2)
+dow_kpi = round(float(dow_data.iloc[4]["Adj Close"]), 2)
+dow_prev  = round(float(dow_data.iloc[3]["Adj Close"]), 2)
 dow_change =  ((dow_kpi-dow_prev)/dow_prev)*100
-dow_change = round(dow_change,2)
+dow_change = round(float(dow_change),2)
 dow_change = f"{dow_change} %"
 
 
 
-qqq_kpi = round(qqq_data.iloc[4]["Adj Close"], 2)
-qqq_prev  = round(qqq_data.iloc[3]["Adj Close"], 2)
+qqq_kpi = round(float(qqq_data.iloc[4]["Adj Close"]), 2)
+qqq_prev  = round(float(qqq_data.iloc[3]["Adj Close"]), 2)
 qqq_change =  ((qqq_kpi-qqq_prev)/dow_prev)*100
-qqq_change = round(qqq_change,2)
+qqq_change = round(float(qqq_change),2)
 qqq_change = f"{qqq_change} %"
 
 
