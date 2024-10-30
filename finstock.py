@@ -89,16 +89,16 @@ qqq_change = round(float(qqq_change),2)
 qqq_change = f"{qqq_change} %"
 
 
-gold_kpi = round(gold_data.iloc[0]["Adj Close"], 2)
-gold_prev  = round(gold_data.iloc[1]["Adj Close"], 2)
+gold_kpi = round(float(gold_data.iloc[0]["Adj Close"]), 2)
+gold_prev  = round(float(gold_data.iloc[1]["Adj Close"]), 2)
 gold_change =  ((gold_kpi-gold_prev)/gold_prev)*100
-gold_change = round(gold_change,2)
+gold_change = round(float(gold_change),2)
 gold_change = f"{gold_change} %"
 
-oil_kpi = round(oil_data.iloc[0]["Adj Close"], 2)
-oil_prev  = round(oil_data.iloc[1]["Adj Close"], 2)
+oil_kpi = round(float(oil_data.iloc[0]["Adj Close"]), 2)
+oil_prev  = round(float(oil_data.iloc[1]["Adj Close"]), 2)
 oil_change =  ((oil_kpi-oil_prev)/oil_prev)*100
-oil_change = round(oil_change,2)
+oil_change = round(float(oil_change),2)
 oil_change = f"{oil_change} %"
 
 
