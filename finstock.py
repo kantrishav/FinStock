@@ -41,7 +41,7 @@ st.markdown(
 
 st.markdown(
     """
-    <h1 style='color: #FFFFFF;'>FinOpt.ai</h1>
+    <h1 style='color: #FFFFFF;'>FinGuys.ai</h1>
     """, unsafe_allow_html=True
 )
 
