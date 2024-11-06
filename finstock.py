@@ -548,7 +548,7 @@ st.markdown(
 )
 
 # You can now display or save the DataFrame
-#st.write(df_results)
+st.write(df_results)
 
 import plotly.express as px
 
